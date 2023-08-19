@@ -76,3 +76,54 @@ button:active {
   border-radius: 50px;
   border-color: black;
 }
+
+/* Responsive styles for mobile devices */
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px; /* Reduce font size */
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+
+  .container {
+    flex-direction: column; /* Stack children vertically */
+  }
+
+  .input-section {
+    align-items: center; /* Center the content */
+    margin-bottom: 20px; /* Add some space between the sections */
+  }
+
+  .input-area {
+    width: 100%; /* Ensure it takes up full width */
+    box-sizing: border-box;
+  }
+
+  .equation {
+    font-size: 16px; /* Reduce font size a bit */
+    width: 100%; /* Take full width */
+    max-width: none; /* Remove max-width restriction */
+    text-align: center; /* Center the equation text */
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 0; /* Adjust spacing for stacked layout */
+  }
+
+  #graph {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  .modebar {
+    width: 100%;
+    justify-content: center;
+  }
+}
