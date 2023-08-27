@@ -42,13 +42,19 @@ After entering their desired equations, users can click the "Plot" button.
 The equations are then plotted on the graph. If an invalid equation is provided, an alert notifies the user.
 
 Important Notes:
+
 Equation Formatting: The application automatically formats equations like 2x to 2 * x to ensure correct evaluation.
+
 Graph Range: By default, the graph is set to display x-values from -1000 to 1000.
+
 Error Handling: If an invalid equation is entered, the application will display an error alert to the user.
 
 External Dependencies:
+
 Plotly - Graph plotting library.
+
 numeric - Numerical mathematical functions.
+
 mathjs - Advanced math library for parsing and evaluating equations.
 
 Customization:
