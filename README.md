@@ -49,6 +49,7 @@ Graph Range: By default, the graph is set to display x-values from -1000 to 1000
 
 Error Handling: If an invalid equation is entered, the application will display an error alert to the user.
 
+
 External Dependencies:
 
 Plotly - Graph plotting library.
@@ -59,7 +60,9 @@ mathjs - Advanced math library for parsing and evaluating equations.
 
 Customization:
 Graph Range: Adjusting the range of the graph can be done by changing the parameters of numeric.linspace.
+
 Styles: All styles are present in the CSS section. Modify them for a customized look and feel.
+
 Error Messages: Customize error messages by modifying the alert statements in the JavaScript section.
 
 Conclusion:
